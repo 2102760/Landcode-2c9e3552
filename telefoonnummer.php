@@ -1,9 +1,11 @@
 <?php
 
-// Args
+// Check if variable exists
 if (!isset($argv[1])) {
     die('Hahaha jij denke dit werke zonder telefoonnummer dacht het niet!');
 }
+
+// Args
 $telefoonnummer = $argv[1];
 
 // Regex check
